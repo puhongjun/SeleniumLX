@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+<test name="TestngDemo3">
+	<groups>
+		<run>
+			<include name="b"/>
+		</run>
+	</groups>
+	<classes>
+		<class name="cn.seleniumLianXi.TestngDemo3"/>
+	</classes>		
+</test>
+</suite>
